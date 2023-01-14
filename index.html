@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+
+   
+
+    <title>Happy Day</title>
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white fw-bold" href="#"><img src="img/travel.png" width=40px>
+                    Happy Day</a>
+
+                <ul class="nav nav-tabs ">
+                    <li class="nav-item ">
+                        <a class="nav-link active text-danger fw-bold" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="agencias.html">Agencias</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" href="ciudades.html" >Ciudades</a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a class="nav-link text-white" href="l_turisticos.html">Principales lugares turísticos</a>
+                    </li>
+                </ul>
+
+        </nav>
+    </header>
+
+    <div>
+        <img src="img/panoramica.jpg" class="img-fluid" alt="pan1" width="5000px">
+        <div class="carousel-caption d-none d-md-block">
+
+            <section class="py-xxl-5 text-center container"
+                style="background-color: rgba(128, 128, 128, 0.61); border-radius: 30px;">
+                <br>
+                <div class="row py-xxl-5">
+                    <div class="col-11 col-md-12 mx-auto">
+
+                        <!-- Example single danger button -->
+                        <p class="col-2">Selecciona tu Ciudad: </p>
+
+                        <div class="btn-group col-0">
+
+                            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Ciudad de origen
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Cajamarca</a></li>
+                                <li><a class="dropdown-item" href="#">Baños del Inca</a></li>
+                                <li><a class="dropdown-item" href="#">Namora</a></li>
+                                <li><a class="dropdown-item" href="#">Encañada</a></li>
+                                <li><a class="dropdown-item" href="#">Jesus</a></li>
+
+                            </ul>
+                        </div>
+
+                        <div class="btn-group col-1">
+                            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Ciudad de destino
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Cajamarca</a></li>
+                                <li><a class="dropdown-item" href="#">Baños del Inca</a></li>
+                                <li><a class="dropdown-item" href="#">Namora</a></li>
+                                <li><a class="dropdown-item" href="#">Encañada</a></li>
+                                <li><a class="dropdown-item" href="#">Jesus</a></li>
+                            </ul>
+                        </div>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <label>fecha de ida: &nbsp;</label><input class="col-2" type="date" id="ida">
+                        <label>fecha de vuelta: </label> <input class="col-2" type="date" id="vuelta">
+
+
+
+                    </div>
+
+                </div>
+                <br>
+
+            </section>
+            <br>
+            <button type="button" class="btn btn-success">Buscar</button>
+        </div>
+    </div>
+
+    <br>
+    <div class="container-lg">
+        <h3>Promociones</h3>
+        <p>Disfruta las promociones que happy today tiene para ti</p>
+
+        <div class="card-group">
+            <div class="card">
+                <img height="270px" src="img/50por.png" alt="50por">
+            </div>
+            <div class="card">
+                <img height="270px" src="img/halloween.jpg" alt="halloween">
+            </div>
+            <div class="card">
+                <img height="270px" src="img/por_cumple.PNG" alt="por_cumple">
+            </div>
+
+            <div class="card">
+                <img height="270px" src="img/por_patrias.PNG" alt="por_patrias">
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <section>
+        <div class="container  bg-danger bg-opacity-10  ">
+            <div class="row">
+                <div class="col-5 ">
+                    <form>
+                        <h5>Recibir nuestras ofertas</h5>
+                        <p>Recibe periodicamente nuestras ofertas y promociones exclusivas para clientes exclusivos.</p>
+                        <div class="d-flex w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Correo</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="inserte e-mail">
+                            <input id="newsletter1" type="text" class="form-control" placeholder="inserte nombre">
+                            <button class="btn btn-danger" type="button">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-6 offset-1  ">
+                    <h5>Temas, herramientas de turismo variados</h5>
+
+                    <ul>
+                        <li>
+                            <a style="text-decoration: none;" href="http://sigmincetur.mincetur.gob.pe/turismo/" target="_blank">Mapa de ubicación de recursos turísticos y emprendimientos de turísmo rural comunitario</a>   
+                        </li>
+                        <li>
+                            <a style="text-decoration: none;" href="https://youtu.be/U-OudvixeS0" target="_blank">Descubre Cajamarca</a>   
+                        </li>
+                        <li>
+                            <a style="text-decoration: none;" href="https://youtu.be/EFkpLS1Wn8A" target="_blank">Comida Cajamarquina</a>
+                        </li>
+                        <li>
+                            <a style="text-decoration: none;" href="https://youtu.be/RmAzSsOPdxQ" target="_blank">Carnaval de Cajamarca</a>
+                        </li>
+                        <li>
+                            <a style="text-decoration: none;" href="https://youtu.be/0MPZJC4cPXE" target="_blank">Historias de terror de Cajamarca</a>
+                        </li>
+                        <li>
+                            <a style="text-decoration: none;" href="https://youtu.be/_qF1FedeOL8" target="_blank">Los Cajamarcas | CLASE MAESTRA</a>
+                        </li>
+                        <li>
+                            <a style="text-decoration: none;" href="https://www.municaj.gob.pe/index.php/directorio" target="_blank">Directorio</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <br>
+
+    <section>
+        <div class="col-4 offset-4 bg-success bg-opacity-10" >
+            &nbsp;&nbsp;&nbsp; Aceptamos:
+            <a href="https://www.visa.com.pe" target="_blank"> <img width="100px" src="img/visa.png" alt=""> </a>
+            <a href="https://www.mastercard.com.pe/es-pe.html" target="_blank" ><img width="100px" src="img/mastercard.png" alt=""></a>
+            <a href="https://www.americanexpress.com/es-pe/network/" target="_blank"><img width="100px" src="img/american.png" alt=""></a>
+            
+        </div>
+    </section>
+<br>
+    <footer class="bg-danger p-2 bg-opacity-25">
+
+        <div class="container ">
+            <footer class="py-4 ">
+                <div class="row">
+
+                    <div class="col-2">
+                        <h5>Contacto</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="https://www.gmail.com" target="_blank"
+                                    class="nav-link p-0 text-body">Gmail <img src="img/Gmail.png" alt="" width="20"
+                                        height="15"></a></li>
+                            <li class="nav-item mb-2"><a href="https://www.whatssap.com" target="_blank"
+                                    class="nav-link p-0 text-body">Whatsapp <img src="img/whatssap.png" alt=""
+                                        width="20" height="20"></a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body">Teléfono <img
+                                        src="img/telefono.png" alt="" width="20" height="20"></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-2">
+                        <h5>Sígueme </h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="https://www.facebook.com" target="_blank"
+                                    class="nav-link p-0 text-body">Facebook <img src="img/facebook.png" alt=""
+                                        width="20" height="20"></a></li>
+                            <li class="nav-item mb-2"><a href="https://www.instagram.com" target="_blank"
+                                    class="nav-link p-0 text-body">Instagram <img src="img/insta.png" alt="" width="20"
+                                        height="20"></a></li>
+                            <li class="nav-item mb-2"><a href="https://www.youtube.com" target="_blank" 
+                                    class="nav-link p-0 text-body">YouTube <img src="img/youtube.jpg" alt="" width="20"
+                                        height="20"></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-2">
+                        <h5>Sobre mí</h5>
+                        <ul class="nav flex-column">
+
+                            <li class="nav-item mb-2"><a href="index.html" target="_blank" class="nav-link p-0 text-body">Principal</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="acerca_de.html" target="_blank" class="nav-link p-0 text-body">Acerca
+                                    de</a></li>
+                            <li class="nav-item mb-2"><a href="contacto.html"target="_blank"
+                                    class="nav-link p-0 text-body">Contacto</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-4 offset-1">
+                        <form>
+                            <h5>Suscribete a mi web</h5>
+                            <p>Resumen mensual, novedades y mucho más.</p>
+                            <div class="d-flex w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="inserte e-mail">
+                                <button class="btn btn-danger" type="button">Suscríbete</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="d-flex justify-content-between py-1 my-3 border-top">
+                    <p><small>&copy; 2022 <b>Grupo 4</b> - Todos los Derechos Reservados.</small></p>
+                </div>
+            </footer>
+
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
